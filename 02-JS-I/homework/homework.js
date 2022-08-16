@@ -225,22 +225,13 @@ function esVocal(letra){
   //Escribe tu código aquí
   switch(letra){
     case 'a':
-      return 'Es vocal';
-      break;
     case 'e':
-      return 'Es vocal';
-      break;
     case 'i':
-      return 'Es vocal';
-      break;
     case 'o':
-      return 'Es vocal';
-      break;
     case 'u':
-      return 'Es vocal';
-      break;
-      default: 
-      return 'Dato incorrecto';
+      return 'Es vocal'
+    default:
+      return 'Dato incorrecto'
   }
 }
 
